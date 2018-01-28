@@ -16,11 +16,11 @@ int main(){
   do {
     system("cls");
     cout<<"====== Linked List ====== "<<endl;
-    cout<<"\t1.Insert"<<endl;
-    cout<<"\t2.Print"<<endl;
-    cout<<"\t3.Find"<<endl;
-    cout<<"\t4.Remove"<<endl;
-    cout<<"\t5.Quit"<<endl;
+    cout<<"  1.Insert"<<endl;
+    cout<<"  2.Print"<<endl;
+    cout<<"  3.Find"<<endl;
+    cout<<"  4.Remove"<<endl;
+    cout<<"  5.Quit"<<endl;
     cout<<"Enter Choice : ";
     cin>>choice;
     cout<<endl;
@@ -67,12 +67,6 @@ int main(){
 
         break;
       case '3':
-        /*bool end = true;
-            while(end){
-            if(!b.isPastEnd()&&)
-            b.advance();
-
-            }*/
         b = a.findPrevious(NULL);
         cout<<"Enter Element : ";
         cin>>x;
